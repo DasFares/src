@@ -558,7 +558,7 @@ export default function FreelanceOS() {
 
   return (
     <div style={{ display: "flex", minHeight: "100vh", background: COLORS.bg, fontFamily: "'DM Sans', 'Segoe UI', sans-serif", color: COLORS.textPrimary }}>
-      {/* Sidebar - unchanged */}
+      {/* Sidebar */}
       <div style={{ width: sidebarOpen ? 220 : 64, background: COLORS.surface, borderRight: `1px solid ${COLORS.border}`, display: "flex", flexDirection: "column", transition: "width 0.25s ease", flexShrink: 0 }}>
         <div style={{ padding: sidebarOpen ? "24px 20px 20px" : "24px 12px 20px", borderBottom: `1px solid ${COLORS.border}`, display: "flex", alignItems: "center", justifyContent: "space-between" }}>
           {sidebarOpen && (
